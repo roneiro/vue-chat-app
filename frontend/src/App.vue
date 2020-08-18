@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1 class=header>
-      Test
+      Header Test
     </h1>
   </div>
 </template>
@@ -13,9 +13,16 @@ export default {
 </script>
 
 <style scoped>
+
+  @font-face {
+    font-family: "CodeZ";
+    src: local("CodeZ"),
+    url(./fonts/code-zlyhania/CodeZlyhania-Regular.ttf) format("truetype");
+  }
+
   .header{
     color:maroon; 
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "CodeZ";
   }
 
 </style>
