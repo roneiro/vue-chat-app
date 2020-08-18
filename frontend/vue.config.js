@@ -1,13 +1,7 @@
-module.exports = {
-  "transpileDependencies": [
-    "vuetify"
-  ]
-}
-
 const BundleTracker = require("webpack-bundle-tracker");
 
 module.exports = {
-    baseUrl: "http://0.0.0.0:8080/",
+    publicPath: "http://0.0.0.0:8080/",
     outputDir: './dist/',
 
     chainWebpack: config => {
